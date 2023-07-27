@@ -1,13 +1,13 @@
 m = int(input("Enter marks of student:"))
 if m >= 90 and m <= 100:
   print('A+')
-elif m <= 80 and m < 90: 
+elif 80 <= m < 90: 
   print('A')
-elif m <= 70 and m < 80:
+elif 70 <= m < 80:
   print('B')
-elif m <= 60 and m < 70:
+elif  60 <= m < 70:
   print('C')
-elif m <= 50 and m < 60:
+elif  50 <= m < 60:
   print('D')
 else:
   print('Fail')
